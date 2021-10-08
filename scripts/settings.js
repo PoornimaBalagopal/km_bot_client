@@ -31,7 +31,7 @@ function initSdk(name) {
          * In client auth enabled mode, 'clientAuthEnabled: true' must be passed
          */
         var chatWidgetSettings = {
-             URI: 'gc3odaejas01-gc35001.botmxp.ocp.oraclecloud.com/', // the domain where you want to host your bot
+             URI: 'gc3odaejas01-gc35001.botmxp.ocp.oraclecloud.com', // the domain where you want to host your bot
             clientAuthEnabled: isClientAuthEnabled,     // Enables client auth enabled mode of connection if set true
           //  channelId: 'a8a484d4-c319-4420-a4d6-7351d44dae1d',                   // Channel ID, available in channel settings in ODA UI
 		   channelId: 'b16f5348-b0be-4cad-920d-a385365c9b53', // here goes the channel id of the web channel you configure, hidden due to security
