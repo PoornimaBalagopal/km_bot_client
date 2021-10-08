@@ -51,8 +51,8 @@ function initSdk(name) {
 			timestampMode: 'relative',                  // Sets the timestamp mode, relative to current time or default (absolute)
             enableClearMessage: true,
 			botButtonIcon: 'https://kmbotclient.herokuapp.com/images/kanchan.png',
-            logoIcon: 'https://kmbotclient.herokuapp.com/images/bot-white.png',
-            botIcon: 'https://kmbotclient.herokuapp.com/images/bot-green.png',
+            logoIcon: 'https://kmbotclient.herokuapp.com/images/bot_icon.jpeg',
+            botIcon: 'https://kmbotclient.herokuapp.com/images/bot_icon.jpeg',
             personIcon: 'https://kmbotclient.herokuapp.com/images/user-icon.png',
 			font: '12px Verdana, Geneva, sans-serif',
             theme: 'classic',
