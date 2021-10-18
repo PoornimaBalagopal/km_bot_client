@@ -50,10 +50,10 @@ function initSdk(name) {
             initUserHiddenMessage: 'Hello', // to intialize the conversation from bots side
 			timestampMode: 'relative',                  // Sets the timestamp mode, relative to current time or default (absolute)
             enableClearMessage: true,
-			botButtonIcon: 'https://kmbotclient.herokuapp.com/images/kanchan.png',
-            logoIcon: 'https://kmbotclient.herokuapp.com/images/bot_icon.jpeg',
-            botIcon: 'https://kmbotclient.herokuapp.com/images/bot_icon.jpeg',
-            personIcon: 'https://kmbotclient.herokuapp.com/images/user-icon.png',
+			botButtonIcon: 'https://kmbotclient.herokuapp.com/images/botButton.jpg',
+            logoIcon: 'https://kmbotclient.herokuapp.com/images/niko_logo.jpg',
+            botIcon: 'https://kmbotclient.herokuapp.com/images/bot.gif',
+            personIcon: 'https://kmbotclient.herokuapp.com/images/user_icon.jpg',
 			font: '12px Verdana, Geneva, sans-serif',
             theme: 'classic',
            // embedded: true,
@@ -66,7 +66,7 @@ function initSdk(name) {
                     audioResponseOff: 'Click to turn audio response on', // Tool tip for the speaker off button
                     audioResponseOn: 'Click to turn audio response off', // Tool tip for the speaker on button   
 
-                    chatTitle: 'Ask me anything', // Replaces Chat
+                    chatTitle: 'Your study buddy', // Replaces Chat
                     connected: 'Ready', // Replaces Connected
                     inputPlaceholder: 'Type here', // Replaces Type a message
                     send: 'Send (Enter)' // Replaces Send tool tip
