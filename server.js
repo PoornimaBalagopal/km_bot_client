@@ -11,7 +11,7 @@ var compression = require('compression');
 var app = express();
 app.use(compression());
 
-app.set('port', process.env.PORT || 5022);
+app.set('port', process.env.PORT || 5025);
 //app.set('host', process.env.NODE_IP || 'localhost');
 app.use(cors());
 app.use(bodyParser.json());
